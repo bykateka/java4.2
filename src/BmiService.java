@@ -1,7 +1,7 @@
 public class BmiService {
-    public int calculate(int kilograms, double growthSquared) {
+    public int calculate(int kilograms, double height) {
         double result;
-        result = kilograms / (growthSquared * growthSquared);
+        result = kilograms / (height * height);
         return (int) result;
     }
 }
